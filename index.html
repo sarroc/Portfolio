@@ -40,9 +40,34 @@
         <img src="./assets/ProfilePic.png" alt="Sarah Rocco Profile Picture" />
       </div>
       <div class="section__text">
-        <p class="section__text__p1">Hello,I'm</p>
+        <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Sarah Rocco</h1>
-        <p class="section__text__p2">Front End Developer</p>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Resume.pdf')"
+          >
+            Download Resume
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedIn.png"
+            alt="My LinkedIn Profile"
+            class="icon"
+            onclick='location.href="https:www.linkedin.com/in/sarah-rocco-1aa907109"'
+          />
+          <img
+            src="./assets/Github.png"
+            alt="My Github Profile"
+            class="icon"
+            onclick='location.href="https:github.com/sarroc"'
+          />
+        </div>
       </div>
     </section>
     <script src="script.js"></script>
