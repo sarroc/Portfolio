@@ -291,6 +291,7 @@ btn-color-2:hover {
 .details-container {
   padding: 1.5rem;
   flex: 1;
+  margin: 0 1rem;
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
@@ -320,26 +321,27 @@ btn-color-2:hover {
   font-weight: 600;
   font-size: 1.75rem;
   margin: 2rem;
+  text-align: ;
 }
 
 .experience-details-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: column;
+  gap: 2rem;
 }
 
 .article-container {
   display: flex;
   text-align: initial;
-  flex-wrap: wrap;
   flex-direction: row;
+  justify-content: space-between;
   gap: 2.5rem;
-  justify-content: space-around;
+  flex-wrap: nowrap;
 }
 
 article {
-  display: flex;
-  width: 10rem;
+  width: 45%;
   justify-content: space-around;
   gap: 0.5rem;
 }
@@ -351,7 +353,7 @@ article.icon {
 /* Projects Section */
 
 #projects {
-  position: relative;
+  padding: 4rem 0;
 }
 
 .color-container {
